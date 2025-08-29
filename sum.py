@@ -1,6 +1,3 @@
-from django.db.models.expressions import result
-
-
 def sun_range(start, end):
     result = int(sum(range(start, end +1)))
     return result
